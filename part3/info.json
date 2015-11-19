@@ -1,0 +1,27 @@
+{"musicians": [
+    {
+        "name":"Phil Woods",
+        "instrument":"Alto Saxophone",
+        "bio":"Woods was born in Springfield, Massachusetts. He studied music with Lennie Tristano."
+    },
+    {
+        "name":"Peter Sprague",
+        "instrument":"Guitar",
+        "bio":"An active and prolific musician, Sprague has produced or played on over 190 recordings."
+    },
+    {
+        "name":"Bill Evans",
+        "instrument":"Piano",
+        "bio":"Bill Evans was an American jazz pianist and composer who mostly worked in a trio setting. Evans' use of impressionist harmony, inventive interpretation of traditional jazz repertoire, block chords, and trademark rhythmically independent, singing melodic lines continue to influence jazz pianists today."
+    },
+    {
+        "name":"Ron Carter",
+        "instrument":"Bass",
+        "bio":"RON CARTER is among the most original, prolific, and  influential bassists in jazz. With more than 2,000 albums to his credit."
+    },
+    {
+        "name":"Art Blakey",
+        "instrument":"Drums",
+        "bio":"As a young drummer, Art came under the tutelage of legendary drummer and bandleader Chick Webb."
+    }
+]}

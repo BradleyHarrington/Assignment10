@@ -13,7 +13,6 @@
             $.ajax({
                 type: "get",
                 url: "json.js",
-//                dataType: "json",
                 beforeSend: function() {$("#result").html("Loading...");},
                 timeout: 3000,
                 error: function(xhr, status, error) {
@@ -22,7 +21,14 @@
                 dataType: "json",
                 success: function(response) {
                     $("#result").html("");
+//                    Could NOT get the following method to work, so I used the
+//                    method from part3, which worked great.
 //                    console.log(response);
+//                    $(response).find("management").children().each(function() {
+//                        $("#team").append( 
+//                        $(this).find("name").text() + "<br>" + 
+//                        $(this).find("title").text() + "<br>" + 
+//                        $(this).find("bio").text() + "<br><br>");
                     $.each(response, function() {
                         $.each(this, function(key, value) {
                             $("#result").append( 
